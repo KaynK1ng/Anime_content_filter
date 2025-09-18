@@ -1,0 +1,37 @@
+2025-09-18 11:27:33,649 - utils.file_utils - INFO - 创建结果文件夹：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\有晕影效果的图片
+2025-09-18 11:27:33,650 - utils.file_utils - INFO - 创建结果文件夹：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\nsfw图片
+2025-09-18 11:27:33,650 - utils.file_utils - INFO - 创建结果文件夹：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\因分辨率低而被移除
+2025-09-18 11:27:33,650 - utils.file_utils - INFO - 创建结果文件夹：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\被移除
+2025-09-18 11:27:33,651 - utils.file_utils - INFO - 创建结果文件夹：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\正常漫画
+2025-09-18 11:27:33,651 - main - INFO - ==================================================
+2025-09-18 11:27:33,651 - main - INFO - 开始批量处理图片
+2025-09-18 11:27:33,652 - main - INFO - 输入文件夹：['C:\\Users\\ZhuanZ（无密码）\\Desktop\\Anime_content_filter\\测试2']
+2025-09-18 11:27:33,652 - main - INFO - 支持格式：('.webp', '.jpg', '.jpeg', '.png', '.bmp')
+2025-09-18 11:27:33,652 - main - INFO - ==================================================
+2025-09-18 11:27:33,652 - main - INFO - 
+正在处理文件夹：C:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\测试2
+2025-09-18 11:27:33,652 - main - INFO - 开始处理图片：twitter-1106542314648854528_2.webp
+2025-09-18 11:27:33,792 - main - INFO - [晕影检测] 已保存：twitter-1106542314648854528_2.webp | 中心亮度:155.4, 边缘亮度:113.0, 亮度比:0.73, 阈值:0.85
+2025-09-18 11:27:33,792 - main - INFO - 开始处理图片：twitter-1106542314648854528_3.webp
+2025-09-18 11:27:33,842 - main - INFO - [晕影检测] 已保存：twitter-1106542314648854528_3.webp | 中心亮度:156.1, 边缘亮度:108.3, 亮度比:0.69, 阈值:0.85
+2025-09-18 11:27:33,842 - main - INFO - 开始处理图片：twitter-1106542314648854528_4.webp
+2025-09-18 11:27:33,897 - main - INFO - [晕影检测] 已保存：twitter-1106542314648854528_4.webp | 中心亮度:179.1, 边缘亮度:112.9, 亮度比:0.63, 阈值:0.85
+2025-09-18 11:27:33,898 - main - INFO - 开始处理图片：twitter-1222464172287393793_1.webp
+2025-09-18 11:27:33,961 - main - INFO - [晕影检测] 已保存：twitter-1222464172287393793_1.webp | 中心亮度:176.4, 边缘亮度:109.5, 亮度比:0.62, 阈值:0.85
+2025-09-18 11:27:33,961 - main - INFO - 开始处理图片：twitter-1222464172287393793_2.webp
+2025-09-18 11:27:34,019 - main - INFO - [晕影检测] 已保存：twitter-1222464172287393793_2.webp | 中心亮度:146.3, 边缘亮度:101.3, 亮度比:0.69, 阈值:0.85
+2025-09-18 11:27:34,020 - main - INFO - 开始处理图片：twitter-1222464172287393793_4.webp
+2025-09-18 11:27:34,095 - main - INFO - [晕影检测] 已保存：twitter-1222464172287393793_4.webp | 中心亮度:121.7, 边缘亮度:101.2, 亮度比:0.83, 阈值:0.85
+2025-09-18 11:27:34,095 - main - INFO - 开始处理图片：twitter-1872425229882196313_1.webp
+2025-09-18 11:29:17,511 - main - INFO - [内容排除检测] 已保存：twitter-1872425229882196313_1.webp | 模型判定：无需排除
+2025-09-18 11:29:17,512 - main - INFO - 开始处理图片：twitter-872454269877665792_1.webp
+2025-09-18 11:29:29,882 - main - INFO - [内容排除检测] 已保存：twitter-872454269877665792_1.webp | 模型判定：无需排除
+2025-09-18 11:29:29,883 - main - INFO - 
+==================================================
+2025-09-18 11:29:29,883 - main - INFO - 批量处理完成！总计处理图片：8张
+2025-09-18 11:29:29,884 - main - INFO - vignette：6张 → 路径：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\有晕影效果的图片
+2025-09-18 11:29:29,885 - main - INFO - nsfw：0张 → 路径：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\nsfw图片
+2025-09-18 11:29:29,886 - main - INFO - low_resolution：0张 → 路径：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\因分辨率低而被移除
+2025-09-18 11:29:29,886 - main - INFO - excluded：0张 → 路径：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\被移除
+2025-09-18 11:29:29,887 - main - INFO - normal：2张 → 路径：c:\Users\ZhuanZ（无密码）\Desktop\Anime_content_filter\result\正常漫画
+2025-09-18 11:29:29,888 - main - INFO - ==================================================

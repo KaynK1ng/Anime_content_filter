@@ -1,0 +1,8 @@
+# 核心依赖
+opencv-python==4.9.0.80
+pillow==10.3.0
+openai==1.13.3
+numpy==1.26.4
+
+# 可选依赖（日志美化）
+colorlog==6.8.0
