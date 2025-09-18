@@ -1,6 +1,7 @@
 # 漫画图片筛选工具
 
 一个用于批量筛选漫画图片的工具，支持**晕影检测、NSFW内容过滤、分辨率筛选、非动漫内容排除**，最终输出高质量动漫插画。
+声明，本项目通过调用豆包大模型的Doubao-Seed-1.6 Vision
 
 ## 功能特性
 1. **晕影检测**：自动识别带有晕影效果的图片（如截图暗角），单独分类保存；
@@ -37,7 +38,7 @@ INPUT_FOLDERS = [
 # 大模型API配置（替换为你的API Key）
 MODEL_CONFIG = {
     "base_url": "https://ark.cn-beijing.volces.com/api/v3",
-    "api_key": "your-api-key-here",  # 重要：替换为你的ModelScope API Key
+    "api_key": "your-api-key-here",  # 重要：替换为你的 API Key
     "model_name": "ep-20250917105406-tk7ll"
 }
 
